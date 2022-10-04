@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "full ecommerce site using mern",
   "main": "server.js",
+  "engines": {
+    "node" : "16.16.0",
+    "npm" : "8.11.0"
+  },
   "scripts": {
     "back": "node server.js",
     "front": "cd frontend1 && npm start",
